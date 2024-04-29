@@ -10,17 +10,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #000000);
 }
 
 button {
     background-color: #051937;
     color: #fff;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
     padding: 0.8em 2em;
     font-size: 1.5em;
     letter-spacing: 0.5px;
     cursor: pointer;
 }
+
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: black;
+    border-width: 2px;
+    border-style: outset;
+    font-weight: bold;
+}
+
+
